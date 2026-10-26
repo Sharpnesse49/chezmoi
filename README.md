@@ -9,6 +9,7 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - zsh
 - antidote (via git)
 - starship
+- yay
 - bat
 - zoxide
 - tree
