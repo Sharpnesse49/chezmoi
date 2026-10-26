@@ -6,7 +6,8 @@ antidote load
 eval "$(starship init zsh)"
 
 # Usr config
-eval "$(zoxide init zsh)"
 alias lg='lazygit'
 alias fetch='fastfetch'
+alias update='sudo pacman -Syu'
+
 fastfetch
