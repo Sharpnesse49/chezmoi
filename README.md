@@ -1,2 +1,2 @@
 # dotfiles
-my dotfiles for plasma on arch linux.
+my dotfiles for plasma on arch linux. Including shell conf and plugins, kde plasma theming, general app conf, etc...
