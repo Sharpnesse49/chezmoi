@@ -12,6 +12,7 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - yay
 - snapper
 - snap-pac
+- fzf
 - bat
 - zoxide
 - tree
