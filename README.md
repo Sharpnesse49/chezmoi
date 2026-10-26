@@ -10,6 +10,8 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - antidote (via git)
 - starship
 - yay
+- snapper
+- snap-pac
 - bat
 - zoxide
 - tree
