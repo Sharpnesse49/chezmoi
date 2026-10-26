@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+#function t_teardown {
+  emulate -L zsh
+  setopt local_options
+
+  # Callers are normally a throwaway zsh (run_session, clitest, fixture
+  # pregen), but t_setup is also sourced interactively for debugging, so
+  # put the caller back where it started before removing the tempdir.
+  popd
+  [[ -d "$T_TEMPDIR" ]] && command rm -rf -- "$T_TEMPDIR"
+
+  # do not leak the status of the conditional above
+  true
+#}

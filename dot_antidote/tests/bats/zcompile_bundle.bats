@@ -1,0 +1,97 @@
+#!/usr/bin/env bats
+# Per-bundle zcompile tests.
+# Bundled paths under HOME print with a literal '$HOME' prefix.
+
+load helpers/common
+
+setup() {
+  antidote_common_setup
+  antidote_test_home
+}
+
+# bundle_zcompile reads dir lists back through a subshell, so a home
+# with spaces has to split on lines, not words. One test per branch.
+@test "bundle_zcompile compiles all bundles under a home with spaces" {
+  AHOME="$TESTHOME/.cache/anti dote"
+  antidote bundle foo/bar >/dev/null
+  run antidote __private__ bundle_zcompile
+  assert_success
+  run find "$AHOME" -name '*.zwc'
+  assert_output --partial '.zwc'
+}
+
+@test "bundle_zcompile compiles a named bundle under a home with spaces" {
+  AHOME="$TESTHOME/.cache/anti dote"
+  antidote bundle foo/bar >/dev/null
+  run antidote __private__ bundle_zcompile 'foo/bar'
+  assert_success
+  run find "$AHOME" -name '*.zwc'
+  assert_output --partial '.zwc'
+}
+
+@test "zcompile off leaves no zwc for a file bundle" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'no'"
+  run antidote bundle "$ZDOTDIR/custom/lib/lib1.zsh"
+  assert_output 'source "$HOME/.zsh/custom/lib/lib1.zsh"'
+  [ ! -e "$ZDOTDIR/custom/lib/lib1.zsh.zwc" ]
+}
+
+@test "zcompile off leaves no zwc for a theme bundle" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'no'"
+  run antidote bundle "$ZDOTDIR/custom/plugins/mytheme"
+  assert_output 'fpath+=( "$HOME/.zsh/custom/plugins/mytheme" )
+source "$HOME/.zsh/custom/plugins/mytheme/mytheme.zsh-theme"'
+  [ ! -e "$ZDOTDIR/custom/plugins/mytheme/mytheme.zsh-theme.zwc" ]
+}
+
+@test "zcompile on compiles a lib file" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'yes'"
+  antidote bundle "$ZDOTDIR/custom/lib/lib2.zsh" >/dev/null
+  [ -e "$ZDOTDIR/custom/lib/lib2.zsh.zwc" ]
+}
+
+@test "zcompile on compiles a plugin" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'yes'"
+  antidote bundle "$ZDOTDIR/custom/plugins/myplugin" >/dev/null
+  [ -e "$ZDOTDIR/custom/plugins/myplugin/myplugin.plugin.zsh.zwc" ]
+}
+
+@test "zcompile on compiles a zsh-theme" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'yes'"
+  antidote bundle "$ZDOTDIR/custom/plugins/mytheme" >/dev/null
+  [ -e "$ZDOTDIR/custom/plugins/mytheme/mytheme.zsh-theme.zwc" ]
+}
+
+# A zwc from another zsh is silently ignored when the plugin is sourced,
+# so bundling again must repair it without a version error.
+# Forge the mismatch by patching the version string in the zwc header.
+@test "a bundle zwc from another zsh version is recompiled" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'yes'"
+  local zwc="$ZDOTDIR/custom/plugins/myplugin/myplugin.plugin.zsh.zwc"
+  antidote bundle "$ZDOTDIR/custom/plugins/myplugin" >/dev/null
+  run zsh -fc "zcompile -t '$zwc'"
+  assert_success
+
+  chmod u+w "$zwc"
+  printf '0.0.0' | dd of="$zwc" bs=1 seek=8 conv=notrunc 2>/dev/null
+  run zsh -fc "zcompile -t '$zwc'"
+  assert_failure
+
+  antidote bundle "$ZDOTDIR/custom/plugins/myplugin" >/dev/null 2>"$BATS_TEST_TMPDIR/err"
+  run cat "$BATS_TEST_TMPDIR/err"
+  assert_output ""
+  run zsh -fc "zcompile -t '$zwc'"
+  assert_success
+}
+
+# A stale zwc is rebuilt in place, with no .zwc.old left behind.
+@test "a stale bundle zwc is recompiled without a backup" {
+  ZSTYLES="zstyle ':antidote:bundle:*' zcompile 'yes'"
+  local zfile="$ZDOTDIR/custom/plugins/myplugin/myplugin.plugin.zsh"
+  antidote bundle "$ZDOTDIR/custom/plugins/myplugin" >/dev/null
+  touch -t 202001010000 "$zfile.zwc"
+
+  antidote bundle "$ZDOTDIR/custom/plugins/myplugin" >/dev/null
+  [ "$zfile.zwc" -nt "$zfile" ]
+  [ ! -e "$zfile.zwc.old" ]
+}

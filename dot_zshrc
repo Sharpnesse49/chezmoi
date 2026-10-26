@@ -1,0 +1,12 @@
+# Antidote
+source /home/sharpnesse/.antidote/antidote.zsh
+antidote load
+
+# Starship
+eval "$(starship init zsh)"
+
+# Usr config
+eval "$(zoxide init zsh)"
+alias lg='lazygit'
+alias fetch='fastfetch'
+fastfetch
