@@ -37,6 +37,12 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - onlyoffice (via aur)
 
 ## Misc :
+**terminal binaries :**
+- zsh
+- starship
+- antidote
+
+**extra files :**
 - catppuccin plasma colorscheme
 - wallpaper
 - adwaita nf
