@@ -33,3 +33,8 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - spotify (via aur)
 - steam
 - onlyoffice (via aur)
+
+## Misc :
+- catppuccin plasma colorscheme
+- wallpaper
+- adwaita nf
