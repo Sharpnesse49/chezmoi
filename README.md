@@ -30,14 +30,14 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - plasma-meta
 - kitty
 - zed
-- dolphine
+- dolphin
 - ark
 - firefox
 - discord
 - spotify (via aur)
 - steam
 - libreoffice-fresh
-- krita
+- bitwarden
 
 ## Misc :
 **terminal binaries :**
