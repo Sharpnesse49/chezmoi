@@ -6,8 +6,10 @@ antidote load
 eval "$(starship init zsh)"
 
 # Usr config
+export PATH="$HOME/.local/bin:$PATH"
+
 alias lg='lazygit'
-alias fetch='fastfetch'
-alias update='sudo pacman -Syu'
+alias ff='fastfetch'
+alias up='sudo pacman -Syu'
 
 fastfetch
