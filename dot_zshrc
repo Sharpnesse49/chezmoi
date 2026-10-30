@@ -11,8 +11,4 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 
-alias lg='lazygit'
-alias ff='fastfetch'
-alias up='sudo pacman -Syu'
-
 fastfetch
