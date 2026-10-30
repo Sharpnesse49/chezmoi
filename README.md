@@ -40,9 +40,8 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - kitty
 - zed
 - dolphin
-- ark
 - firefox
 - discord
 - spotify (via aur)
 - steam
-- libreoffice-fresh
+- libre-office
