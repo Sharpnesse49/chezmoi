@@ -4,29 +4,39 @@ Arch can be quite unstable even with local backup tools, so this helps in case o
 
 My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](https://archlinux.org/). Including shell conf and plugins, kde plasma theming, general app conf, etc made to be synced between my PCs with [chezmoi](https://github.com/twpayne/chezmoi) you can still use them for you! 
 
-## App & binaries list : 
-**binaries :**
+## Binaries list : 
+**terminal stack**
 - zsh
 - antidote (via git)
 - starship
-- yay
-- snapper
-- snap-pac
-- fzf
-- bat
-- zoxide
-- tree
-- tldr
-- lazygit
-- chezmoi
-- fastfetch
+
+**dev bin**
 - git
-- go
+- lazygit
+- github cli
 - python
 - uv
 - ruby
+- go
 
-**apps :**
+**tools bin**
+- fzf
+- zoxide
+- atuin
+- bat
+- lsd
+- tldr
+- chezmoi
+- fastfetch
+
+**system bin**
+- snapper
+- snap-pac
+- grub
+- grub-brtfs
+- yay
+
+## App list :
 - plasma-meta
 - kitty
 - zed
@@ -37,15 +47,3 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - spotify (via aur)
 - steam
 - libreoffice-fresh
-- bitwarden
-
-## Misc :
-**terminal binaries :**
-- zsh
-- starship
-- antidote
-
-**extra files :**
-- catppuccin plasma colorscheme
-- wallpaper
-- adwaita nf
