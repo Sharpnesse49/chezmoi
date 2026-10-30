@@ -36,7 +36,8 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - discord
 - spotify (via aur)
 - steam
-- libreoffice fresh
+- libreoffice-fresh
+- krita
 
 ## Misc :
 **terminal binaries :**
