@@ -1,5 +1,5 @@
 # Antidote
-source /home/sharpnesse/.antidote/antidote.zsh
+source /usr/share/zsh-antidote/antidote.zsh
 antidote load
 
 # Starship
@@ -7,6 +7,9 @@ eval "$(starship init zsh)"
 
 # Usr config
 export PATH="$HOME/.local/bin:$PATH"
+
+eval "$(zoxide init zsh)"
+eval "$(atuin init zsh)"
 
 alias lg='lazygit'
 alias ff='fastfetch'

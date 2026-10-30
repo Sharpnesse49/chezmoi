@@ -3,6 +3,5 @@ zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-completions
 mattmc3/ez-compinit
 aloxaf/fzf-tab
-ajeetdsouza/zoxide
 hlissner/zsh-autopair
 michaelaquilina/zsh-you-should-use
