@@ -7,7 +7,7 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 ## Binaries list : 
 **terminal stack**
 - zsh
-- antidote (via git)
+- antidote (via aur)
 - starship
 
 **dev bin**
@@ -32,7 +32,7 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - snap-pac
 - grub
 - grub-brtfs
-- yay
+- yay (via aur)
 
 ## App list :
 - plasma-meta
