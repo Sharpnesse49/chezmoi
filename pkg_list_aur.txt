@@ -1,5 +1,0 @@
-paru-debug
-spotify
-yay
-yay-debug
-zsh-antidote
