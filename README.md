@@ -40,6 +40,7 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - zed
 - dolphin
 - mpv
+- peazip
 - firefox
 - discord
 - spotify (via aur)
