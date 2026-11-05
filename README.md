@@ -15,21 +15,16 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - github cli
 - python
 - uv
-- ruby
-- go
 
 **tools bin**
 - fzf
 - zoxide
 - atuin
-- bat
-- lsd
 - chezmoi
 - fastfetch
 
 **system bin**
 - snapper
-- snap-pac
 - grub
 - grub-brtfs
 - yay (via aur)
@@ -45,4 +40,3 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - discord
 - spotify (via aur)
 - steam
-- libre-office
