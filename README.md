@@ -40,3 +40,5 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - discord
 - spotify (via aur)
 - steam
+
+*full list at pkgs/*
