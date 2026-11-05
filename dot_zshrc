@@ -11,4 +11,7 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 
+alias ls="ls --color=always"
+alias fetch="fastfetch"
+
 fastfetch

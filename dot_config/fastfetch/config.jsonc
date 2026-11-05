@@ -7,9 +7,9 @@
   "modules": [
     { "type": "os",     "key": "󰌽"         },
     { "type": "kernel", "key": "󰋑"         },
-    { "type": "uptime", "key": "󰥔"         },
+    { "type": "uptime", "key": ""         },
     { "type": "cpu",    "key": "" 	   },
-    { "type": "memory", "key": "" 	   },
+    { "type": "memory", "key": "" 	   },
     { "type": "break",  "key": " " 	   },
     { "type": "colors", "symbol": "circle" },
   ]
