@@ -13,5 +13,5 @@ eval "$(atuin init zsh)"
 
 alias ls="ls --color=always"
 alias fetch="fastfetch"
-
+alias nano='nano "(fzf)"'
 fastfetch
