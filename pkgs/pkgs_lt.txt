@@ -12,7 +12,6 @@ fzf
 git
 github-cli
 grub
-grub-btrfs
 kitty
 linux
 linux-firmware
@@ -23,7 +22,6 @@ peazip
 plasma-meta
 power-profiles-daemon
 prismlauncher
-snapper
 sof-firmware
 spotify
 starship
