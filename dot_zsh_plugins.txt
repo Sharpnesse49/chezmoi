@@ -1,5 +1,2 @@
-zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-completions
-mattmc3/ez-compinit
-aloxaf/fzf-tab
-hlissner/zsh-autopair
+zdharma-continuum/fast-syntax-highlighting

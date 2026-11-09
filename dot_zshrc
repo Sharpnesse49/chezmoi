@@ -2,6 +2,10 @@
 source /usr/share/zsh-antidote/antidote.zsh
 antidote load
 
+# Zsh compinit
+autoload -Uz compinit
+compinit
+
 # Starship
 eval "$(starship init zsh)"
 
@@ -12,6 +16,7 @@ eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 
 alias ls="ls --color=always"
+alias fzf="fzf --style=full --preview 'cat {}'"
 alias fetch="fastfetch"
-alias nano='nano "(fzf)"'
+
 fastfetch
