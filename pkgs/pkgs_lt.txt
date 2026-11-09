@@ -1,3 +1,4 @@
+abiword
 atuin
 base
 base-devel
@@ -28,7 +29,6 @@ spotify
 starship
 steam
 ufw
-uv
 yay
 zed
 zoxide

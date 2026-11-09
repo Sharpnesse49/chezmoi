@@ -135,8 +135,8 @@ ForegroundVisited=173,142,230
 [General]
 ColorScheme=Tokyo Night
 ColorSchemeHash=d7bb305b91e7dd55dd16808f6dbc4c8d48b8d305
-TerminalApplication=kitty
-TerminalService=kitty.desktop
+TerminalApplication=kitty +open %U
+TerminalService=kitty-open.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
