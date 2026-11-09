@@ -2,43 +2,54 @@
 ## Why :
 Arch can be quite unstable even with local backup tools, so this helps in case of data loss  
 
-My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](https://archlinux.org/). Including shell conf and plugins, kde plasma theming, general app conf, etc made to be synced between my PCs with [chezmoi](https://github.com/twpayne/chezmoi) you can still use them for you! 
+My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](https://archlinux.org/). Including shell conf and plugins, kde plasma theming, general app conf, etc made to be synced between my PC and Laptop with [chezmoi](https://github.com/twpayne/chezmoi) you can still use them for you! 
 
-## Binaries list : 
-**terminal stack**
+## Terminal stack
 - zsh
 - antidote (via aur)
 - starship
 
-**dev bin**
+## Binaries list : 
+**Dev**
 - git
 - github cli
 - python
-- uv
 
-**tools bin**
+**Tools**
 - fzf
 - zoxide
 - atuin
 - chezmoi
 - fastfetch
 
-**system bin**
-- snapper
+**Sys**
+- plasma-meta
 - grub
-- grub-brtfs
 - yay (via aur)
+- bluez-utils
+- networkmanager
+- power-profil-daemon
+- ufw
 
 ## App list :
-- plasma-meta
-- kitty
-- zed
-- dolphin
-- mpv
-- peazip
+
+**Internet**
 - firefox
 - discord
-- spotify (via aur)
+- spotify
+
+**Editors**
+- zed
+- abiword
+
+**Games**
+- prismlauncher
 - steam
+
+**Sys**
+- kitty
+- dolphin
+- peazip
+- mpv
 
 *full list at : https://github.com/Sharpnesse49/chezmoi/tree/main/pkgs*
