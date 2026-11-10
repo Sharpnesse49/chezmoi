@@ -50,6 +50,3 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - dolphin
 - peazip
 - mpv
-
-*full list at : (pkgs/)[https://github.com/Sharpnesse49/chezmoi/tree/main/pkgs]*
-*walls at : (walls/)[https://github.com/Sharpnesse49/chezmoi/tree/main/walls]*
