@@ -13,10 +13,9 @@ eval "$(starship init zsh)"
 export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(zoxide init zsh)"
-eval "$(atuin init zsh)"
+eval "$(fzf --zsh)"
 
 alias ls="ls --color=always"
 alias fzf="fzf --style=full --preview 'cat {}'"
-alias fetch="fastfetch"
 
 fastfetch

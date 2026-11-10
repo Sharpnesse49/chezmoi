@@ -1,2 +1,3 @@
+michael-matta1/zsh-edit-select
 zsh-users/zsh-completions
 zdharma-continuum/fast-syntax-highlighting
