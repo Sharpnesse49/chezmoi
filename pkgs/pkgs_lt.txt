@@ -1,5 +1,4 @@
 abiword
-atuin
 base
 base-devel
 bluez-utils
@@ -18,6 +17,7 @@ linux-firmware
 mpv
 nano
 networkmanager
+pay-respects
 peazip
 plasma-meta
 power-profiles-daemon
