@@ -4,6 +4,10 @@ Arch can be quite unstable even with local backup tools, so this helps in case o
 
 My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](https://archlinux.org/). Including shell conf and plugins, kde plasma theming, general app conf, etc made to be synced between my PC and Laptop with [chezmoi](https://github.com/twpayne/chezmoi) you can still use them for you! 
 
+## Theme
+- Tokyo night:
+https://wixdaq.github.io/Tokyo-Night-Website/
+
 ## Terminal stack
 - zsh
 - antidote (via aur)
