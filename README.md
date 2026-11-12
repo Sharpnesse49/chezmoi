@@ -1,4 +1,6 @@
 # My dotfiles!
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b23f3235-9188-4dff-b927-de9dfb61d67d" />
+
 ## Why
 Arch can be quite unstable even with local backup tools, so this helps in case of data loss  
 
@@ -9,10 +11,10 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 https://wixdaq.github.io/Tokyo-Night-Website/
 
 ## Additionnal info
-- Font used
+- Font used :
 https://developer.apple.com/fonts/
-- Wallpapers used
-*see the walls/ file*
+- Wallpapers used :
+*see the walls/ folder*
 ## Terminal stack
 - zsh
 - antidote (via aur)
