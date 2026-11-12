@@ -16,6 +16,8 @@ eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 
 alias ls="ls --color=always"
-alias fzf="fzf --style=full --preview 'cat {}'"
+alias fzf="fzf --preview 'cat {}'"
+alias sp="sudo snapper create && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias up="yay -Syu"
 
 fastfetch

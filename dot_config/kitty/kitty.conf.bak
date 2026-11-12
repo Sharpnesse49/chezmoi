@@ -1,19 +1,15 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
-# BEGIN_KITTY_THEME
-# Tokyo Night
-include current-theme.conf
-# END_KITTY_THEME
 
 #: Fonts {{{
 
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-font_family      AdwaitaMono Nerd Font
-bold_font        auto
-italic_font      auto
-bold_italic_font auto
+# font_family      AdwaitaMono Nerd Font
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. The easiest way to select fonts is to run the `kitten
@@ -1559,7 +1555,7 @@ enable_audio_bell no
 #: second number is the margin between the tab bar and the contents of
 #: the current tab.
 
-# tab_bar_style fade
+tab_bar_style separator
 
 #: The tab bar style, can be one of:
 
@@ -3512,3 +3508,12 @@ enable_audio_bell no
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Adwaita Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
+include themes/noctalia.conf

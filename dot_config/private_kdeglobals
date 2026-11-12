@@ -134,17 +134,17 @@ ForegroundVisited=173,142,230
 
 [General]
 ColorScheme=Tokyo Night
-ColorSchemeHash=d7bb305b91e7dd55dd16808f6dbc4c8d48b8d305
+ColorSchemeHash=b97562e9308a74623cceab30d237ce2d67fb72a8
 TerminalApplication=kitty +open %U
 TerminalService=kitty-open.desktop
 XftAntialias=true
-XftHintStyle=hintslight
+XftHintStyle=hintnone
 XftSubPixel=rgb
-fixed=Adwaita Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-font=Adwaita Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-menuFont=Adwaita Sans,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold,0,0
-smallestReadableFont=Adwaita Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-toolBarFont=Adwaita Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+fixed=SF Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=SF Pro Rounded,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=SF Pro Rounded,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=SF Pro Rounded,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=SF Pro Rounded,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
 Theme=breeze-dark
@@ -157,7 +157,7 @@ frameContrast=0.2
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 Show Full Path=false
 Show Inline Previews=true
@@ -174,7 +174,7 @@ View Style=DetailTree
 [WM]
 activeBackground=26,27,38
 activeBlend=215,218,224
-activeFont=Adwaita Sans,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,SemiBold,0,0
+activeFont=SF Pro Rounded,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium,0,0
 activeForeground=215,218,224
 inactiveBackground=26,27,38
 inactiveBlend=110,108,124
