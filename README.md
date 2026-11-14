@@ -40,7 +40,7 @@ https://developer.apple.com/fonts/
 - yay (via aur)
 - bluez-utils
 - networkmanager
-- power-profil-daemon
+- power-profiles-daemon
 - ufw
 
 ## App list
