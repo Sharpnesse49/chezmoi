@@ -29,7 +29,6 @@ spotify
 starship
 steam
 ufw
-unzip
 yay
 zed
 zoxide
