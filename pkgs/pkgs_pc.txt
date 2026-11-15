@@ -1,10 +1,11 @@
-atuin
+abiword
 base
 base-devel
 bluez-utils
 chezmoi
 discord
 dolphin
+efibootmgr
 fastfetch
 firefox
 fzf
@@ -20,10 +21,8 @@ mpv
 nano
 networkmanager
 nvidia-open
-nvidia-settings
 nvidia-utils
 peazip
-pipewire-jack
 plasma-meta
 power-profiles-daemon
 prismlauncher
@@ -32,7 +31,6 @@ spotify
 starship
 steam
 ufw
-uv
 yay
 zed
 zoxide
