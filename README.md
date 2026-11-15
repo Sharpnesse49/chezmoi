@@ -16,10 +16,15 @@ https://developer.apple.com/fonts/
 - Wallpapers used :
 *see the walls/ folder*
 ## Terminal stack
+**Stack**
 - zsh
 - antidote (via aur)
 - starship
 
+**Plugins**
+- zsh-edit-select
+- zsh-completions
+- fast-syntax-highlighting
 ## Binaries list
 **Dev**
 - git
