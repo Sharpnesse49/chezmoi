@@ -141,10 +141,10 @@ XftAntialias=true
 XftHintStyle=hintnone
 XftSubPixel=rgb
 fixed=SF Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-font=SF Pro Rounded,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-menuFont=SF Pro Rounded,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-smallestReadableFont=SF Pro Rounded,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-toolBarFont=SF Pro Rounded,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=SF Pro Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=SF Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=SF Pro,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=SF Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
 Theme=breeze-dark
@@ -174,7 +174,7 @@ View Style=DetailTree
 [WM]
 activeBackground=26,27,38
 activeBlend=215,218,224
-activeFont=SF Pro Rounded,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium,0,0
+activeFont=SF Pro,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium,0,0
 activeForeground=215,218,224
 inactiveBackground=26,27,38
 inactiveBlend=110,108,124
