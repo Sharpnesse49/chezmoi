@@ -58,7 +58,7 @@ https://developer.apple.com/fonts/
 **Internet**
 - firefox
 - discord
-- spotify
+- spotify-launcher
 
 **Editors**
 - zed
