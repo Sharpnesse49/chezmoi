@@ -15,9 +15,10 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 
-alias ls="ls --color=always"
+alias ls="ls --color=auto"
+alias grep="grep --color=auto"
 alias fzf="fzf --preview 'cat {}'"
-alias sp="sudo snapper create && sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias up="yay -Syu"
+alias snap="sudo snapper create && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias update="yay -Syu"
 
 fastfetch
