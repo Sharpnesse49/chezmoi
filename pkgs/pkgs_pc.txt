@@ -27,7 +27,7 @@ plasma-meta
 power-profiles-daemon
 prismlauncher
 snapper
-spotify
+spotify-launcher
 starship
 steam
 ufw
