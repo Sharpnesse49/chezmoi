@@ -17,6 +17,7 @@ eval "$(fzf --zsh)"
 
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
+alias diff="diff --color=auto"
 alias fzf="fzf --preview 'cat {}'"
 alias snap="sudo snapper create && sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias update="yay -Syu"
