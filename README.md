@@ -15,11 +15,6 @@ My dotfiles for [plasma](https://kde.org/fr/plasma-desktop/) on [arch linux](htt
 - Tokyo night:
 https://wixdaq.github.io/Tokyo-Night-Website/
 
-## Additionnal info
-- Font used :
-https://developer.apple.com/fonts/
-- Wallpapers used :
-*see the walls/ folder*
 ## Terminal stack
 **Stack**
 - zsh
