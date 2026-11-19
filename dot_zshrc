@@ -1,25 +1,31 @@
-# Antidote
+# Zsh comp gen
+export GENCOMPL_FPATH="$HOME/.zsh/complete"
+mkdir -p "$GENCOMPL_FPATH"
+fpath=("$GENCOMPL_FPATH" $fpath)
+
+# Antidote load
 source /usr/share/zsh-antidote/antidote.zsh
 antidote load
 
-# Zsh compinit
+# Zsh comp init
 autoload -Uz compinit
 compinit
 
-# Starship
+# Starship init
 eval "$(starship init zsh)"
 
-# Usr config
+# My config
 export PATH="$HOME/.local/bin:$PATH"
+
+fastfetch
 
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 
+# My alias
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias fzf="fzf --preview 'cat {}'"
 alias snap="sudo snapper create && sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias update="yay -Syu"
-
-fastfetch
