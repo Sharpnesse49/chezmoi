@@ -17,14 +17,14 @@ https://wixdaq.github.io/Tokyo-Night-Website/
 
 ## Terminal stack
 **Stack**
-- zsh
-- antidote (via aur)
-- starship
+- fish
+- fisher (plugins manager)
 
 **Plugins**
-- zsh-edit-select
-- zsh-completions
-- fast-syntax-highlighting
+- hydro
+- fzf
+- zoxide
+
 ## Binaries list
 **Dev**
 - git
