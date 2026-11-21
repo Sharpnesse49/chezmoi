@@ -8,6 +8,8 @@ dolphin
 efibootmgr
 fastfetch
 firefox
+fish
+fisher
 fzf
 git
 github-cli
@@ -33,5 +35,3 @@ ufw
 yay
 zed
 zoxide
-zsh
-zsh-antidote

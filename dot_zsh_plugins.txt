@@ -1,4 +1,0 @@
-michael-matta1/zsh-edit-select
-zsh-users/zsh-completions
-aloxaf/gencomp
-zdharma-continuum/fast-syntax-highlighting
