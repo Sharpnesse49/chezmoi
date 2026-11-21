@@ -1,17 +1,13 @@
 # Path
 export PATH="$HOME/.local/bin:$PATH"
 
-# Zsh comp gen & init
-export GENCOMPL_FPATH="$HOME/.zsh/complete"
-mkdir -p "$GENCOMPL_FPATH"
-fpath=("$GENCOMPL_FPATH" $fpath)
-
-autoload -Uz compinit
-compinit
-
 # Antidote plugins load
 source /usr/share/zsh-antidote/antidote.zsh
 antidote load
+
+# Zsh comp init
+autoload -Uz compinit
+compinit
 
 # Tools
 eval "$(starship init zsh)"
