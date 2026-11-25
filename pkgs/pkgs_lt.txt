@@ -18,9 +18,9 @@ grub-btrfs
 kitty
 linux
 linux-firmware
-man-db
 mpv
 nano
+neovim
 networkmanager
 peazip
 plasma-meta
@@ -33,5 +33,4 @@ starship
 steam
 ufw
 yay
-zed
 zoxide
