@@ -1,4 +1,3 @@
-abiword
 base
 base-devel
 bluez-utils
@@ -9,7 +8,6 @@ efibootmgr
 fastfetch
 firefox
 fish
-fisher
 fzf
 git
 github-cli
@@ -19,7 +17,6 @@ kitty
 linux
 linux-firmware
 mpv
-nano
 neovim
 networkmanager
 peazip
@@ -29,8 +26,6 @@ prismlauncher
 snapper
 sof-firmware
 spotify-launcher
-starship
 steam
 ufw
-yay
 zoxide
